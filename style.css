@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+
+}
+
+ul{
+	list-style-type: none;
+}
+.container{
+	text-align: center;
+	padding: 0.9em 1.3em;
+}
+/* navbar styling begins */
+#anchor ul{
+	
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+
+
+}
+#anchor li{
+	float: left;
+}
+#anchor li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	color: white;
+	text-decoration: none; 
+}
+#anchor li a:hover{
+	background-color: gray;
+}
+/* to fix the nav bar */
+#anchor ul{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+/* navbar styling ends*/
+#about{
+	padding-top: 2%;
+	font-size: 1em;
+	text-align: left;
+	direction: ltr;
+	margin-left: 80%;
+	line-height: 0.5;
+}
+
+[about] p:nth-child(7){
+	text-indent: 50px;
+}
+
+[introduction]{
+	line-height: 0.3;
+}
+
+#objectives{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.obj{
+	margin-left: 1em;
+	text-align: left;
+	line-height:
+
+}
+
+.objhead{
+	margin-left: 5px;
+	text-indent: 20px;
+}
+.skills-container{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	margin-left: 10%;
+	text-align: left;
+}
+.skill{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	margin-left: 15%;
+	text-align: left;
+}
+
+#prof{
+	line-height: 0.8em;
+	text-align: left;
+}
+
+#education{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	text-align: left;
+}
+#work{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	text-align: left;
+}
+#ref{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	text-align: left;
+}
+.ref1{
+	margin-left: 0em;
+}
